@@ -1,0 +1,115 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="CreateNewUser.aspx.cs" Inherits="WebApplication1.WebForm2" %>
+
+<!DOCTYPE html>  
+  
+<html xmlns="http://www.w3.org/1999/xhtml">  
+<head runat="server">  
+    <title></title>  
+    <style type="text/css">  
+        .auto-style1 {  
+            width: 100%;  
+        }  
+    </style>  
+</head>  
+<body>  
+    <form id="form1" runat="server">  
+    <div>  
+      
+        <table class="auto-style1">  
+            <tr>  
+                <td colspan="6" style="text-align: center; vertical-align: top">  
+                    <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="XX-Large" Font-Underline="True" Text="Create User "></asp:Label>  
+                </td>  
+            </tr>  
+            <tr>  
+                <td> </td>  
+                <td style="text-align: center">  
+                    <asp:Label ID="Label2" runat="server" Font-Size="X-Large" Text="First Name:"></asp:Label>  
+                </td>  
+                <td style="text-align: center">  
+                    <asp:TextBox ID="TextBox1" runat="server" Font-Size="X-Large" required ="true"></asp:TextBox>  
+                </td>  
+                <td> </td>  
+                <td> </td>  
+                <td> </td>  
+            </tr>  
+            <tr>  
+                <td> </td>  
+                <td style="text-align: center">  
+                    <asp:Label ID="Label3" runat="server" Font-Size="X-Large" Text="Password :"></asp:Label>  
+                </td>  
+                <td style="text-align: center">  
+                    <asp:TextBox ID="TextBox2" runat="server" Font-Size="X-Large" TextMode="Password" required="true"></asp:TextBox>  
+                </td>  
+                <td> </td>  
+                <td> </td>  
+                <td> </td>  
+            </tr>  
+            <tr>  
+                <td> </td>  
+                <td style="text-align: center">  
+                    <asp:Label ID="Label5" runat="server" Font-Size="X-Large" Text="Confirm Password :"></asp:Label>  
+                </td>  
+                <td style="text-align: center">  
+                    <asp:TextBox ID="TextBox3" runat="server" Font-Size="X-Large" TextMode="Password" required="true"></asp:TextBox>  
+                </td>  
+                <td> </td>  
+                <td> </td>  
+                <td> </td>  
+            </tr>  
+             <tr>  
+                <td> </td>  
+                <td style="text-align: center">  
+                    <asp:Label ID="Label6" runat="server" Font-Size="X-Large" Text="Email:"></asp:Label>  
+                </td>  
+                <td style="text-align: center">  
+                    <asp:TextBox ID="TextBox4" runat="server" Font-Size="X-Large" TextMode="Email" required="true"></asp:TextBox>  
+                </td>  
+                <td> </td>  
+                <td> </td>  
+                <td> </td>  
+            </tr>  
+             <tr>  
+                <td> </td>  
+                <td style="text-align: center">  
+                    <asp:Label ID="Label7" runat="server" Font-Size="X-Large" Text="Mobile Number:"></asp:Label>  
+                </td>  
+                <td style="text-align: center">  
+                    <asp:TextBox ID="TextBox5" runat="server" Font-Size="X-Large"  required="true"></asp:TextBox>  
+                </td>  
+                <td> </td>  
+                <td> </td>  
+                <td> </td>  
+            </tr>
+            
+            <tr>  
+                <td> </td>  
+                <td> </td>  
+                <td style="text-align: center">  
+                    <asp:Button ID="Button1" runat="server" BorderStyle="None" Font-Size="X-Large" Text="Signup" />
+                    &nbsp;
+                                   <asp:Button ID="Button2" runat="server" BorderStyle="None" Font-Size="X-Large" Text="Cancel" />  
+                   
+                </td>  
+                <td>
+                    
+                </td>  
+                <td> </td>  
+                <td> </td>  
+            </tr>  
+            <tr>  
+                <td> </td>  
+                <td> </td>  
+                <td>  
+                    <asp:Label ID="Label4" runat="server" Font-Size="X-Large"></asp:Label>  
+                </td>  
+                <td> </td>  
+                <td> </td>  
+                <td> </td>  
+            </tr>  
+        </table>  
+      
+    </div>  
+    </form>  
+</body>  
+</html>  
