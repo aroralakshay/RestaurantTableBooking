@@ -127,6 +127,7 @@
     <Content Include="Login.aspx" />
     <Content Include="CreateNewUser.aspx" />
     <Content Include="ForgotPassword.aspx" />
+    <Content Include="ChooseRestaurents.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -231,6 +232,13 @@
     </Compile>
     <Compile Include="ForgotPassword.aspx.designer.cs">
       <DependentUpon>ForgotPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ChooseRestaurents.aspx.cs">
+      <DependentUpon>ChooseRestaurents.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChooseRestaurents.aspx.designer.cs">
+      <DependentUpon>ChooseRestaurents.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
